@@ -1,8 +1,11 @@
 {
   "name": "csv-to-json-stream",
   "version": "0.0.1",
-  "description": "",
+  "description": "Simple csv to json mapper",
   "main": "index.js",
+  "bin": {
+    "feeder": "./bin.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +18,11 @@
   "bugs": {
     "url": "https://github.com/kazinov/csv-to-json-stream/issues"
   },
+  "keywords": [
+    "csv",
+    "json",
+    "stream"
+  ],
   "homepage": "https://github.com/kazinov/csv-to-json-stream#readme",
   "dependencies": {
     "csv-parse": "^1.0.2",
