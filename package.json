@@ -18,6 +18,7 @@
   "homepage": "https://github.com/kazinov/csv-to-json-stream#readme",
   "dependencies": {
     "csv-parse": "^1.0.2",
+    "nomnom": "^1.8.1",
     "stream-combiner2": "^1.1.1",
     "stream-transform": "^0.1.1"
   }
