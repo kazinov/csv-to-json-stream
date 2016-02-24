@@ -4,7 +4,7 @@
   "description": "Simple csv to json mapper",
   "main": "index.js",
   "bin": {
-    "feeder": "./bin.js"
+    "csv-to-json-stream": "./bin.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
