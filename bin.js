@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var transform = require('./')
   , fs = require('fs')
   , nomnom = require('nomnom');
