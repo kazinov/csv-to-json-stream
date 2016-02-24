@@ -1,0 +1,24 @@
+{
+  "name": "csv-to-json-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazinov/csv-to-json-stream.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kazinov/csv-to-json-stream/issues"
+  },
+  "homepage": "https://github.com/kazinov/csv-to-json-stream#readme",
+  "dependencies": {
+    "csv-parse": "^1.0.2",
+    "stream-combiner2": "^1.1.1",
+    "stream-transform": "^0.1.1"
+  }
+}
