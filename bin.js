@@ -34,4 +34,14 @@ var opts = nomnom
   })
   .parse();
 
-console.log(JSON.stringify(opts));
+if (opts[0]) {
+  // If a file was specified, read it in
+  fs.createReadStream(opts[0])
+    .pipe(transform(opts))
+    .pipe(process.stdout);
+} else {
+  // Otherwise, just read from stdin
+  process.stdin
+    .pipe(new FeedStream(opts))
+    .pipe(process.stdout);
+}
