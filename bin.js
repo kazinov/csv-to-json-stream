@@ -44,6 +44,6 @@ if (opts[0]) {
 } else {
   // Otherwise, just read from stdin
   process.stdin
-    .pipe(new FeedStream(opts))
+    .pipe(transform(opts))
     .pipe(process.stdout);
 }
